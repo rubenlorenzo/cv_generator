@@ -1,0 +1,4 @@
+venv
+.vscode
+.buildconfig
+__pycache__
