@@ -1,0 +1,22 @@
+page {  
+    display: block;
+    margin: 0 auto;    
+}
+page[size="A4"] {
+    box-shadow: 0 0 0.5cm rgba(0,0,0,0.5);  
+    width: 21cm;
+    height: 29.7cm; 
+}
+page[size="A4"][layout="landscape"] {
+    width: 29.7cm;
+    height: 21cm;  
+}
+  
+@media print {
+    body, page[size="A4"]{
+        display: block;
+        background: white; 
+        margin: 0;
+        box-shadow: unset;
+    }  
+}
