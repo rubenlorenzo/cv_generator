@@ -11,18 +11,30 @@
 </head>
 <body>
     <page size="A4">
-        <div id="container">
-            <button id="paintColor"><i class="fa fa-paint-brush" aria-hidden="true"></i></button>
+        <div id="container">           
             <div id="one" class="color">1</div>
             <div id="two" class="color">2</div>
             <div id="three" class="color">3</div>
             <div id="four" class="color">4</div>
             <div id="five" class="color">5</div>
             <div id="six" class="color">6</div>
-            <div id="seven" class="color">7</div> 
+            <div id="seven" class="color">7</div>
+            <button id="paintColor"><i class="fa fa-paint-brush" aria-hidden="true"></i></button> 
         </div>
     </page>
     <script>
+        //Button paint divs content 
+        //Mouse on the page     
+        $('page').on({
+            mouseenter: function() {
+                $("#paintColor").css("display","block");
+            },
+            mouseleave: function() {
+                $("#paintColor").css("display","none");
+            }
+        });
+        
+        //Click button show paited divs 
         var active_c=true;
         
         $("#paintColor").click(function() {            

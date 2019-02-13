@@ -20,3 +20,9 @@ page[size="A4"][layout="landscape"] {
         box-shadow: unset;
     }  
 }
+
+#paintColor {
+    position: fixed;
+    left: 50%;
+    top: 50%;    
+}
