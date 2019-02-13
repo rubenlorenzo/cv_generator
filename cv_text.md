@@ -17,6 +17,25 @@
 
 </div>
 
+<div markdown="1" id="presentation" class="text">
+
+### Presentation
+
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+
+</div>
+
+<div markdown="1" id="competences" class="text">
+
+### Competences
+
++ Lorem Ipsum: 5/5.
++ Curabitur: 3/5.
++ Facilisis: 4/5.
++ Consectetur: 5/5.
+
+</div>
+
 <div markdown="1" id="expirience" class="text">
 
 ### Professional expirience
@@ -74,4 +93,5 @@
 #### Pellentesque a vulputate dui. 
 + Sed rhoncus, neque at sodales ultrices.
 + Mauris dignissim justo rhoncus neque blandit.
+
 </div>
